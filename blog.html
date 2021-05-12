@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
+        
+    </head>
+    <body class="pt-5">
+        <!--nav start-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="home.html">Cybotrix Technologies</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="register.html">Register</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#message">Enquiry</a>
+                  </li>
+                <li class="nav-item active">
+                  <a class="nav-link " href="blog.html" >Blogs</a>
+                </li>
+              </ul>
+              <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav><!--nav end-->
+        <section class="bg-light p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="text-primary">Media object Example</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 bg-white p-3 rounded">
+                        <div class="media p-3 border md-4">
+                            <img src="1.jpg" alt="" class="m-3 rounded-circle" style="width:100px;">
+                            <div class="media-body">
+                                <h3>About Java Technologies</h3>
+                                <p>
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                </p>
+                                <small>Posted by - Abc , Posted on - 26 may 20</small>
+                            </div>
+                        </div><!--media end-->
+                        <div class="media p-3 border md-4">
+                            <img src="2.jpg" alt="" class="m-3 rounded-circle" style="width:100px;">
+                            <div class="media-body">
+                                <h3>About Web Technologies</h3>
+                                <p>
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                </p>
+                                <small>Posted by - Abc , Posted on - 26 may 20</small>
+                            </div>
+                        </div><!--media end-->
+                        <div class="media p-3 border md-4">
+                            <img src="3.jpg" alt="" class="m-3 rounded-circle" style="width:100px;">
+                            <div class="media-body">
+                                <h3>About Python Technologies</h3>
+                                <p>
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                    sdf sdfsd  sdfdfsd sdfsffsd fdsfs
+                                </p>
+                                <small>Posted by - Abc , Posted on - 26 may 20</small>
+                            </div>
+                        </div><!--media end-->
+                        <!--pagination start here-->
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a href="" class="page-link">First</a></li>
+                            <li class="page-item"><a href="" class="page-link">1</a></li>
+                            <li class="page-item"><a href="" class="page-link">2</a></li>
+                            <li class="page-item"><a href="" class="page-link">3</a></li>
+                            <li class="page-item"><a href="" class="page-link">4</a></li>
+                            <li class="page-item"><a href="" class="page-link">5</a></li>
+                            <li class="page-item"><a href="" class="page-link">Last</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </section>
+        <!--modal start-->
+        
+            <div class="modal fade" id="message" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Enquiry Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <div class="form-group">
+                        <label >Full name</label>
+                        <input type="text" class="form-control form-control-sm">
+                    </div>
+                    <div class="form-group">
+                        <label >e-Mail Id</label>
+                        <input type="text" class="form-control form-control-md">
+                    </div>
+                    <div class="form-group">
+                        <label >Contact No</label>
+                        <input type="text" class="form-control form-control-lg">
+                    </div>
+                    <div class="form-group">
+                        <label >Message</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    </div><!--modal body end-->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!--modal end-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

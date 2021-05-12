@@ -1,0 +1,248 @@
+bootstrap is first framework of html,css ,javascript for responsive web design , even it is library of css
+
+bootstrap is ready  made css file with collection of
+    css by tag name
+    css by class
+    css by tag group
+    css by parent and child tag
+
+note : to implement bootstrap in project we required to know list of class
+list of class  
+    for text color
+        text-danger -red
+        text-primary -blue
+        text-info - skyblue
+        text-success - green
+        text-warning -yellow
+        text-white -white
+        text-secondary - dark color
+-------------------------------------------
+    for background color
+        bg-danger -red
+        bg-primary -blue
+        bg-info - skyblue
+        bg-success - green
+        bg-warning -yellow
+        bg-white -white
+        bg-secondary - dark color
+        jumbotron
+-------------------------------------------
+    for text-alingment
+        text-center
+        text-right
+        text-left
+        text-justify
+-------------------------------------------
+grid system in bootstrap
+    bootstrap grid  system has devided all the devices in 5 type for bootstrap 4
+    1. extra small -0px to 576px screen width
+    2. small - 577px to 768px screen width
+    3. mediam - 769 to 992 px screen width
+    4. large - 993 to 1200 px screen width
+    5. extra large - 1201  px screen width
+
+-------------------------------------------
+    grid system has given 60 classes for 5 type of devices. 
+    where 12 for each device
+
+    list of 12 class for each device
+
+    1. extra small -0px to 576px screen width
+        col-1 
+        col-2
+        col-3
+        col-4
+        col-5
+        col-6
+        col-7
+        col-8
+        col-9
+        col-10
+        col-11
+        col-12
+    
+    2. small - 577px to 768px screen width
+        col-sm-1 
+        col-sm-2
+        col-sm-3
+        col-sm-4
+        col-sm-5
+        col-sm-6
+        col-sm-7
+        col-sm-8
+        col-sm-9
+        col-sm-10
+        col-sm-11
+        col-sm-12
+    3. mediam - 769 to 992 px screen width
+        col-md-1 
+        col-md-2
+        col-md-3
+        col-md-4
+        col-md-5
+        col-md-6
+        col-md-7
+        col-md-8
+        col-md-9
+        col-md-10
+        col-md-11
+        col-md-12
+    4. large - 993 to 1200 px screen width
+        col-lg-1 
+        col-lg-2
+        col-lg-3
+        col-lg-4
+        col-lg-5
+        col-lg-6
+        col-lg-7
+        col-lg-8
+        col-lg-9
+        col-lg-10
+        col-lg-11
+        col-lg-12
+    5. extra large - 1201  px screen width
+        col-xl-1 
+        col-xl-2
+        col-xl-3
+        col-xl-4
+        col-xl-5
+        col-xl-6
+        col-xl-7
+        col-xl-8
+        col-xl-9
+        col-xl-10
+        col-xl-11
+        col-xl-12
+-------------------------------------------
+    while creating a webpage using bootstrap ,follow these steps
+    1. link the bootstrap.css file in head section
+    2. follow body tag
+    3. inside body use these classes
+        a. continer - it has margin from left and right
+        b.continer-fluid - it has very less margin from left to right
+    4. inside the continer follow the class
+        a.row
+    5. inside the row , follow any 12 colums from given 60
+--------------------------------------------
+For Table 
+    table
+    table table-bordered
+    table table-small
+    table table-stripped
+--------------------------------------------
+
+For Image
+    img-fluid   - to control the width as  100%
+    rounded
+    rounded-circle
+--------------------------------------------
+m - margin
+p - padding
+-----------------
+1rem - 16px
+-----------------
+1 - 1rem
+2 - 2rem
+3 - 3rem
+4 - 4rem
+5 - 5rem
+-----------------
+l - left
+r - right
+t - top
+b - bottom
+-----------------
+m-1,m-2,m-3,m-4,m-5 = 5
+ml-1,ml-2,ml-3,ml-4,ml-5 = 5
+mr-1,mr-2,mr-3,mr-4,mr-5 = 5
+mt-1,mt-2,mt-3,mt-4,mt-5 = 5
+mb-1,mb-2,mb-3,mb-4,mb-5 = 5
+===============================
+                           25
+===============================
+------------------
+p-1,p-2,p-3,p-4,p-5 = 5
+pl-1,pl-2,pl-3,pl-4,pl-5 = 5
+pr-1,pr-2,pr-3,pr-4,pr-5 = 5
+pt-1,pt-2,pt-3,pt-4,pt-5 = 5
+pb-1,pb-2,pb-3,pb-4,pb-5 = 5
+===============================
+                           25
+===============================
+--------------------------------------------28/03/2021
+Card in bootstrap 
+    card
+        card-header 
+        card-body
+        card-footer
+    Note : with all bg classes
+--------------------------------------------
+For Button
+    btn
+    btn btn-danger
+    btn btn-success
+    btn btn-warning
+    btn btn-info
+    btn btn-primary
+    btn btn-secondary
+    btn btn-light
+
+    Size
+        btn-sm
+        btn-lg
+        btn-block - full width
+-------------------------------------------
+For form designing
+    form-control - applicable for - text , number, email, select , file , textarea .
+    
+    size 
+        form-control-sm
+        form-control-md
+        form-control-lg
+----------------------------------------------04/04/2021
+    input-group
+        input-group
+        input-group-prepend
+        input-group-text
+        input-group-append
+----------------------------------------------10/04/2021
+    For  Left navigation 
+        list-group
+        list-group-item
+        active
+--------------------------------------------------10/04/2021
+    Alert
+        alert alert-danger
+        alert alert-success
+        alert alert-info
+        alert alert-warning
+        alert alert-secondary
+        alert alert-primary        
+--------------------------------------------------
+    Badge
+        badge badge-info
+        badge badge-danger
+        badge badge-warning
+        badge badge-success
+        badge badge-primary
+        badge badge-secondary
+
+--------------------------------------------------
+     Media Object
+     see in the media.html file for reference.
+     media
+     media-body
+--------------------------------------------------
+    for pagination
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a href="" class="page-link">First</a></li>
+        <li class="page-item"><a href="" class="page-link">1</a></li>
+        <li class="page-item"><a href="" class="page-link">2</a></li>
+        <li class="page-item"><a href="" class="page-link">3</a></li>
+        <li class="page-item"><a href="" class="page-link">4</a></li>
+        <li class="page-item"><a href="" class="page-link">5</a></li>
+        <li class="page-item"><a href="" class="page-link">Last</a></li>
+    </ul>
+--------------------------------------------------
+    Navigation
+    In this we take the code from the examples folder. In that fixed navigation bar file contains the nave code.
